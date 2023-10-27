@@ -27,6 +27,7 @@ const HomePage = () => {
                   <span>Web Pages.</span>
                   <span>Web Apps.</span>
                   <span>Web Design.</span>
+                  <span>Web Sites.</span>
                 </div>
               </div>
             </div>
