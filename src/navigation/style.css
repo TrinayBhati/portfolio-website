@@ -1,0 +1,58 @@
+.layout {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  color: white;
+  text-align: left;
+  display: flex;
+  justify-content: center ;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+}
+
+.button-container {
+  display: flex;
+  background-color: rgb(30, 29, 29);
+  width: 400px;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 30px;
+}
+
+.button {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.button:hover {
+  transform: translateY(-7px);
+}
+
+.icon {
+  font-size: 20px;
+}
+/* ... your existing CSS rules ... */
+
+.selected {
+  border: 2px solid white; /* Add a white border to the selected button */
+  padding: 2px; /* Optional: Add padding to adjust the size of the circle */
+}
+
+.selected{
+  color: black;
+  background-color: white;
+}

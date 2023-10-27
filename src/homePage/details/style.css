@@ -1,0 +1,39 @@
+.content-body{
+    padding: 18px 0px ;
+}
+.body{
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.extra{
+    font-size: 14px;
+    color: #888888;
+    cursor: pointer;
+}
+.extra:hover{
+    color: white;
+    font-weight: bold;
+}
+.body-subtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 14px;
+    color: #888888;
+    padding: 8px 0px;
+}
+.body-subtitle:hover{
+    color: white;
+    font-size: 15px;
+}
+.line{
+    width: 70%;
+    color: #888888;
+}

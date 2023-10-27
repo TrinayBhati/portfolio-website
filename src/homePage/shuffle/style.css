@@ -1,0 +1,14 @@
+.shuffle-text {
+    display: inline-block;
+    animation: shuffle 0.5s infinite alternate paused; /* Use "paused" to stop the animation */
+  }
+  
+  @keyframes shuffle {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(4px); /* Adjust the distance for the shuffle effect */
+    }
+  }
+  

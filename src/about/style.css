@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Osmanya&family=Noto+Sans:wght@100;300;400;500;600;700;800&family=Nunito&family=Roboto+Slab:wght@700&family=Sometype+Mono:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background-color: black;
+    /* background-image: url("../assets/alley_world_bg.jpg");
+    background-repeat: repeat; */
+    background-size: contain;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: black;
+    min-height: 100vh;
+    color: white;
+    text-align: left;
+}
+.header{
+    display: flex;
+    height: 100%;
+    max-height: 50px;
+    align-items: center;
+    flex-flow: row;
+    gap: 15px;
+    padding: 50px 0px;
+}
+.header-image{
+    aspect-ratio: 1 / 1;
+    /* border-radius: 1000px; */
+    border-radius: 50%;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 50px;
+}
+.header-image img{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+.header-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title{
+    font-size: 24px;
+}
+.sub-title{
+    font-size: 16px;
+    color: #888888;
+}
+
+.content-title{
+    padding: 24px 0px 32px ;
+}
+.title-heading{
+    font-size: 30px;
+    color: #888888 ;
+}
+.title-change{
+    color: WHITE;
+}
+.title-body{
+    padding: 15px 0px;
+    font-size: 20px;
+    color: #888888;
+    font-family: 'Chivo Mono', monospace;
+}
+.title-body-sub{
+    font-size: 20px;
+    color: white;
+    font-family: 'Chivo Mono', monospace;
+}
+.title-online{
+    padding: 12px 0 20px 0;
+}
+.green{
+    width: 10px;
+    height: 10px;
+    background-color: #4CAF50; 
+    border-radius: 50%; 
+    display: inline-block;
+}
+.title-online-description{
+    padding: 0px 5px;
+    color: #888888;
+    font-size: 14px;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotate-svg {
+    animation: spin 5s linear infinite; /* Adjust duration and timing as needed */
+  }
+  
+  .contain {
+    display: flex;
+    font-size: clamp(2rem, 2.8vw, 5rem);
+  }
+  .typewriter {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid white;
+    animation: cursor 1s step-start infinite, 
+      text 5s steps(18) ;
+  }
+  
+  @keyframes cursor {
+    0%, 100% { 
+      border-color: #212121; 
+    }
+  }
+  
+  @keyframes text {
+    0% { 
+      width: 0; 
+    }
+    100% { 
+      width: 21.5ch; 
+    }
+  }
+  
+  
+  
+  @media (max-width: 767px) {
+  /* Your mobile styles here */
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: black;
+    min-height: 100vh;
+    color: white;
+    text-align: left;
+}
+.typewriter{
+    font-size: 26px;
+}
+.title-body{
+    font-size: 18px;
+}
+}
