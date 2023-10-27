@@ -542,6 +542,7 @@ button {
 	animation: anti 12.5s linear infinite 0s;
 	-ms-animation: anti 12.5s linear infinite 0s;
 	-webkit-animation: anti 12.5s linear infinite 0s;
+	color: #00abe9;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
@@ -605,6 +606,7 @@ button {
 	animation: clock 12.5s linear infinite 0s;
 	-ms-animation: clock 12.5s linear infinite 0s;
 	-webkit-animation: clock 12.5s linear infinite 0s;
+	color: #00abe9;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
@@ -668,6 +670,7 @@ button {
 	animation: pop 12.5s linear infinite 0s;
 	-ms-animation: pop 12.5s linear infinite 0s;
 	-webkit-animation: pop 12.5s linear infinite 0s;
+	color: #00abe9;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
@@ -731,6 +734,7 @@ button {
 	animation: push 12.5s linear infinite 0s;
 	-ms-animation: push 12.5s linear infinite 0s;
 	-webkit-animation: push 12.5s linear infinite 0s;
+	color: #00abe9;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;

@@ -25,10 +25,8 @@ const HomePage = () => {
                 Crafting
                 <div className="slidingVertical">
                   <span>Web Pages.</span>
-                  <span>Web Experiences.</span>
-                  <span>Web Applications.</span>
-                  <span>Web Delights.</span>
-                  <span>Web Marvels.</span>
+                  <span>Web Apps.</span>
+                  <span>Web Design.</span>
                 </div>
               </div>
             </div>
