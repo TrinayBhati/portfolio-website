@@ -21,13 +21,21 @@ const HomePage = () => {
         <section className="content-title">
           <div className="title-heading">
             <div className="contain">
-              <div className="typewriter">
-                Crafting flawless<span className="title-change"> Web Designs</span>
+              <div className="sentence">
+                Crafting
+                <div className="slidingVertical">
+                  <span>Web Pages.</span>
+                  <span>Web Experiences.</span>
+                  <span>Web Applications.</span>
+                  <span>Web Delights.</span>
+                  <span>Web Marvels.</span>
+                </div>
               </div>
             </div>
           </div>
           <div className="title-body">
-            Crafting captivating digital experiences through front-end magic, one line of code at a time.
+            Crafting captivating digital experiences through front-end magic,
+            one line of code at a time.
           </div>
           <div className="title-online">
             <span className="green"></span>

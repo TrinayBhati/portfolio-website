@@ -4,12 +4,14 @@
     font-size: 1.1em;
     cursor: pointer;
     background-color: #232324;
-    color: #fff;
     border: none;
     border-radius: 5px;
     transition: all .4s;
    }
-   
+   .btn a{
+    color: #fff;
+
+   }
    .btn:hover {
     border-radius: 5px;
     transform: translateY(-10px);
@@ -47,4 +49,8 @@
 .title-body{
     font-size: 18px;
 }
+}
+.title-heading-resume{
+    font-size: 38px;
+    color: gray;
 }

@@ -4,7 +4,6 @@ import {
   RiUserLine,
   RiBriefcaseLine,
   RiFileCopy2Line,
-  RiContactsLine,
   RiMailLine,
 } from "react-icons/ri";
 import "./style.css";

@@ -28,6 +28,12 @@ const About = () => {
             An aspiring front-end-web developer based in Delhi.
           </div>
           <div className="title-body">
+            Crafting Unique and User-Centered Web Experiences
+          </div>
+          <div className="title-body">
+            Building High-Performance Websites and Digital Products
+          </div>
+          <div className="title-body">
             Dedicated to crafting pixel-perfect websites
           </div>
           <div className="title-body">

@@ -18,8 +18,11 @@ const Resume = () => {
         </div>
       </header>
       <section className="content-title">
-        <div className="title-heading">
-          Download my Resume <span className="title-change">here.</span>
+        <div className="title-heading-resume">
+          <div className="typewriter ">
+            Download <span className="title-change">Resume </span>
+            here
+          </div>
         </div>
       </section>
       <div className="buttons">
